@@ -8,7 +8,7 @@ use App\Models\User;
 
 class UserController extends Controller
 {
-    public function index(Request $request){
+    public function index(IndexRequest $request){
 
     }
 }
